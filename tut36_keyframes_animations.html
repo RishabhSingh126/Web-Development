@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Keyframes and Animations</title>
+    <style>
+        .container{
+            background-color: rgb(233, 132, 149);
+        }
+        .box{
+            background-color: rgb(90, 238, 90);
+            width: 250px;
+            height: 250px;
+            position: relative;
+            animation-name: rishabh1;
+            animation-duration: 200 s;
+            animation-iteration-count: 100;
+        }
+        @keyframes rishabh1 {
+            from {
+                width: 200px;
+            }
+            to {
+                width: 800px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box">
+            This is box
+        </div>
+    </div>
+</body>
+</html>
